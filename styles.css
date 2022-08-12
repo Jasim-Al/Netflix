@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap");
+
+* {
+  font-size: 62.5%;
+  color: white;
+}
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  display: flex;
+  /* font-size: 1.6rem; */
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.netflix-logo {
+  fill: #e50914;
+}
+
+.nav-logo {
+  width: 15rem;
+}
+
+.lang {
+  font-size: 1.6rem;
+  color: white;
+  border: none;
+  background: none;
+}
+
+.lang:focus,
+.lang:active,
+.lang::after {
+  border: none;
+}
+
+.select {
+  display: inline-block;
+  border: 0.5px solid white;
+  padding: 1rem;
+  text-align: center;
+  margin-right: 3rem;
+  border-radius: 3px;
+}
+
+.select img {
+  width: 1.5rem;
+}
+
+.action {
+  display: inline-block;
+}
+
+.action a {
+  color: white;
+  background-color: #e50914;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.main {
+  background: radial-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.85)),
+    url("./images/main.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 70vh;
+  border-bottom: 8px solid #222;
+}
+
+.content {
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tagline {
+  width: 40%;
+  font-size: 6.5rem;
+  margin: 0;
+}
+
+.catch {
+  font-size: 3.2rem;
+}
+
+.started {
+  font-size: 2.8rem;
+  margin-top: 5rem;
+}
+
+.email-box {
+  border-radius: 3px;
+  font-size: 3rem;
+}
+.email-box input {
+  border: 1px solid white;
+  padding: 1.8rem;
+  width: 50rem;
+}
+
+.email-box input:focus,
+.email-box input:active {
+  border: 1px solid white;
+  outline: none;
+}
+
+.email-box button {
+  border: none;
+  padding: 1.9rem 5rem;
+  background-color: #e50914;
+  color: white;
+  margin: 0;
+  margin-left: -1rem;
+  cursor: pointer;
+}
+
+.email-box button img {
+  height: 1.8rem;
+}
+
+.tv {
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 8px solid #222;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.tv-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 50%;
+}
+
+.tv .tagline {
+  width: 75%;
+  margin: 0;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.tv .catch {
+  width: 80%;
+}
+
+.tv-right {
+  width: 25%;
+}
+
+.tv-video {
+  border: 50px solid transparent;
+  border-image: url("./images/tv.png") 125 fill;
+  width: 100%;
+}
+
+.down {
+  justify-content: space-around;
+}
+
+.down-text .tagline {
+  width: 65%;
+}
+
+.faq {
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 8px solid #222;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.faq-text h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+.accordion-item {
+  background-color: #222;
+  margin-bottom: 1rem;
+}
+
+.accordion-item .accordion-button {
+  background-color: #222;
+  color: white;
+  font-size: 2.8rem;
+  padding: 2rem;
+}
+
+.accordion-item:active,
+.accordion-item:focus,
+.accordion-button:active,
+.accordion-button:focus {
+  border: none;
+}
+
+.accordion-body {
+  color: white;
+  font-size: 2rem;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+footer p,
+div a {
+  font-size: 1.4rem;
+  color: #737373;
+  text-decoration: none;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+footer div a:active,
+footer div a:hover {
+  color: #737373;
+  text-decoration: underline;
+}
+
+.net {
+  margin-top: 5rem;
+}
